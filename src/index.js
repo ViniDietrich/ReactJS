@@ -2,12 +2,17 @@ import React from "react"
 import ReactDOM from "react-dom"
 import "./styles.css"
 
+function primeiroJSX() {
+  return {
+      Vinicius Dietrich;
+  }
+}
 
 const App = () => {
 
   return (
     <div className="App">
-      Hello World
+      {primeiroJSX()}
     </div>
   )
 }
